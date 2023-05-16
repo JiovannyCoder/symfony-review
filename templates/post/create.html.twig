@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+{% block title %} Create post {% endblock %}
+{% block body %}
+<div class="bg-white mt-4 p-4 rounded mx-auto" style="max-width:600px">
+    <h2 class="text-secondary my-4">Create new post</h2>
+
+    {{ form(form) }}
+
+    {# <div class="d-flex align-items-center">
+        <a href="{{ path('post.index') }}" class="btn btn-sm btn-outline-primary rounded-pill">Return back</a>
+    </div> #}
+
+</div>
+
+
+{% endblock %}
